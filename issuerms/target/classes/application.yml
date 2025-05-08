@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: issuems
+
+server:
+  port: 8082
+
