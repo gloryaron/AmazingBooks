@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: apigateway
+
+  cloud:
+    gateway:
+      routes:
+        - id: bookms
+          uri: lb://bookms
+          predicates:
+            - Path=/books/**
+        - id: issuems
+          uri: lb://issuems
+          predicates:
+            - Path=/issue/**
+
+
