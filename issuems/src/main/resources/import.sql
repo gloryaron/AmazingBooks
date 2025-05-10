@@ -1,1 +1,0 @@
-INSERT INTO issue_details (BOOK_ID, CUST_ID, ISBN, TITLE, AVAILABLE_COPIES, ISSUED_COPIES) VALUES (1, 1, '978-0143127741', 'Sapiens: A Brief History of Humankind', 10, 2),(2, 2, '978-0062316097', 'The Alchemist', 10, 2),(3, 3, '978-0553386790', 'Thinking, Fast and Slow', 10, 2),(4, 4, '978-0451524935', '1984', 10, 2),(5, 5, '978-0307277671', 'The Road' , 10, 2);
