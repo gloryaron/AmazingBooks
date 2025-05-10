@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: bookms
+
+server:
+  port: 8081
+
